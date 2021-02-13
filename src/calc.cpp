@@ -1,6 +1,6 @@
 #include<iostream>
 
 int main() {
-	cout << "Sample calculator source code" << endl;
+	std::cout << "Sample calculator source code" << std::endl;
 	return 0;
 }
