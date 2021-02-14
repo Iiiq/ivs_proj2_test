@@ -55,8 +55,10 @@ int main()
         assert(lib->addition(2, 3) == 5);
         assert(lib->addition(20.33, 0.66) == 20.99);
         assert(lib->addition(-68, -14) == -82);
+
         assert(lib->subtraction(5, 2) == 3);
         assert(lib->subtraction(-68, -14) == -54);
+        assert(lib->subtraction(12.67, 335.26) == -322.59);
     }
     catch (const std::invalid_argument &e)
     {
